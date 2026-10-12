@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>btc_desc</name><version>1.0.0</version>
+  <description>ROS 2 BTC descriptor extraction</description>
+  <maintainer email="ycj1@hku.hk">ycj</maintainer>
+  <license>See upstream repository</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend><depend>sensor_msgs</depend>
+  <depend>visualization_msgs</depend><depend>geometry_msgs</depend>
+  <depend>pcl_conversions</depend><depend>cv_bridge</depend>
+  <exec_depend>launch_ros</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>
